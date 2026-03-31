@@ -53,13 +53,13 @@ Importez votre modèle et générez vos UVs automatiquement.
 L'objectif : Transformer votre brique en bois, en métal, en roche ou en marbre.
 
 Comprendre les textures PBR (Physically Based Rendering) :
-🎨 Color (Albedo) : La couleur de base peinte sur le modèle.
-👻 Alpha : La transparence du modèle.
-🪨 Roughness : La rugosité (de parfaitement mat à ultra-brillant).
-⚙️ Metallic : L'objet est-il conducteur (métal avec reflets purs) ou diélectrique (plastique/bois) ?
-🌄 NormalMap : Illusion de relief (réflexion de la lumière truquée).
-🏔️ DisplacementMap : Véritable relief (déforme réellement la géométrie selon les valeurs noir/blanc).
-🌑 Ambient Occlusion (AO) : Assombrit les zones inaccessibles à la lumière (creux, interstices).
+- 🎨 Color (Albedo) : La couleur de base peinte sur le modèle.
+- 👻 Alpha : La transparence du modèle.
+- 🪨 Roughness : La rugosité (de parfaitement mat à ultra-brillant).
+- ⚙️ Metallic : L'objet est-il conducteur (métal avec reflets purs) ou diélectrique (plastique/bois) ?
+- 🌄 NormalMap : Illusion de relief (réflexion de la lumière truquée).
+- 🏔️ DisplacementMap : Véritable relief (déforme réellement la géométrie selon les valeurs noir/blanc).
+- 🌑 Ambient Occlusion (AO) : Assombrit les zones inaccessibles à la lumière (creux, interstices).
 
 L'assemblage :
 
