@@ -1,4 +1,4 @@
-ATELIER NSI - Conception d'un site web utilisant de la Réalité Augmentée
+# ATELIER NSI - Conception d'un site web utilisant de la Réalité Augmentée
 
 DEMO : https://soupollet.github.io/AtelierNSI/
 
