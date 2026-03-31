@@ -1,5 +1,7 @@
 ATELIER NSI - Conception d'un site web utilisant de la Réalité Augmentée
 
+DEMO : https://soupollet.github.io/AtelierNSI/
+
 🚀 Atelier Découverte : De la 3D à la Réalité Augmentée (AR) dans le navigateur
 En quelques étapes simples, vous allez apprendre à modéliser un objet en 3D, le texturer avec réalisme, et le déployer sur le web pour le visualiser en AR depuis votre smartphone.
 
