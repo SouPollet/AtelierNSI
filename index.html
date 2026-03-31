@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB AR | TERMINAL</title>
+    <style>
+        /* Importation de polices futuristes depuis Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Share+Tech+Mono&display=swap');
+
+        :root {
+            --neon-color: #00f3ff;
+            --bg-color: #050914;
+            --card-bg: rgba(0, 20, 40, 0.6);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            /* Création d'une grille de fond façon cyberespace */
+            background-image: 
+                linear-gradient(rgba(0, 243, 255, 0.07) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 243, 255, 0.07) 1px, transparent 1px);
+            background-size: 40px 40px;
+            color: white;
+            font-family: 'Share Tech Mono', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Titre principal avec effet de lueur */
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            color: #fff;
+            text-shadow: 
+                0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px var(--neon-color),
+                0 0 40px var(--neon-color),
+                0 0 80px var(--neon-color);
+            margin-bottom: 60px;
+            text-align: center;
+            animation: pulse 2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.8; text-shadow: 0 0 20px var(--neon-color); }
+            100% { opacity: 1; text-shadow: 0 0 40px var(--neon-color), 0 0 80px var(--neon-color); }
+        }
+
+        /* Conteneur des boutons/cartes */
+        .container {
+            display: flex;
+            gap: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        /* Style des cartes de redirection */
+        .card {
+            background: var(--card-bg);
+            border: 2px solid var(--neon-color);
+            border-radius: 8px;
+            padding: 40px 30px;
+            width: 280px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(5px);
+            box-shadow: inset 0 0 20px rgba(0, 243, 255, 0.1), 0 0 20px rgba(0, 243, 255, 0.2);
+            transition: all 0.3s ease-out;
+            cursor: pointer;
+        }
+
+        /* Animation de scan à l'intérieur de la carte */
+        .card::after {
+            content: '';
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to bottom, transparent, rgba(0, 243, 255, 0.4), transparent);
+            animation: scanline 4s linear infinite;
+            opacity: 0.5;
+        }
+
+        @keyframes scanline {
+            0% { top: -100%; }
+            100% { top: 200%; }
+        }
+
+        /* Effet au survol (Hover) */
+        .card:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: inset 0 0 30px rgba(0, 243, 255, 0.4), 0 0 40px var(--neon-color);
+            background: rgba(0, 40, 80, 0.8);
+        }
+
+        .card:hover h2 {
+            color: #fff;
+            text-shadow: 0 0 10px var(--neon-color), 0 0 20px var(--neon-color);
+        }
+
+        /* Typographie à l'intérieur des cartes */
+        .card h2 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.8rem;
+            margin: 0 0 15px 0;
+            color: var(--neon-color);
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            margin: 0;
+            color: #8ab4f8;
+            line-height: 1.5;
+        }
+
+        /* Décorations d'angles façon UI futuriste */
+        .corner {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border: 2px solid transparent;
+        }
+        .card .tl { top: 10px; left: 10px; border-top-color: var(--neon-color); border-left-color: var(--neon-color); }
+        .card .tr { top: 10px; right: 10px; border-top-color: var(--neon-color); border-right-color: var(--neon-color); }
+        .card .bl { bottom: 10px; left: 10px; border-bottom-color: var(--neon-color); border-left-color: var(--neon-color); }
+        .card .br { bottom: 10px; right: 10px; border-bottom-color: var(--neon-color); border-right-color: var(--neon-color); }
+
+    </style>
+</head>
+<body>
+
+    <h1>[ SYSTEME AR ACTIF ]</h1>
+
+    <div class="container">
+        <!-- Lien vers le modèle LEGO -->
+        <a href="Lego.html" class="card">
+            <div class="corner tl"></div><div class="corner tr"></div>
+            <div class="corner bl"></div><div class="corner br"></div>
+            <h2>Modèle<br>LEGO</h2>
+            <p>Initialisation du bloc de construction.</p>
+        </a>
+
+        <!-- Lien vers le modèle Voiture -->
+        <a href="VoitureComplete.html" class="card">
+            <div class="corner tl"></div><div class="corner tr"></div>
+            <div class="corner bl"></div><div class="corner br"></div>
+            <h2>Modèle<br>Voiture</h2>
+            <p>Chargement du véhicule complet.</p>
+        </a>
+    </div>
+
+</body>
+</html>
