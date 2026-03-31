@@ -1,0 +1,8 @@
+<model-viewer src="RoseNice.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate environment-image="music_hall_01_1k.hdr" skybox-image="music_hall_01_1k.hdr">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.016942471074224662m 0.11940723657608032m -0.0428398707567334m" data-normal="0m 1m 0m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Coucou</div>
+    </button>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
