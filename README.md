@@ -10,12 +10,12 @@ Prestations AR+VR pour les entreprises, associations et artistes.
 🛠️ Le Workflow 100% Web
 Aucun logiciel à installer ! Notre pipeline de création se déroule entièrement dans votre navigateur grâce à ces outils gratuits :
 
-- Modélisation ➔ [TinkerCAD]((https://www.tinkercad.com/))
-- Dépliage UV ➔ [UV Unwrapper]((https://uv-unwrapper.vercel.app/))
-- Textures (PBR) ➔ [AmbientCG]((https://ambientcg.com/))
-- Assemblage ➔ [Three JS Editor]((https://threejs.org/editor/))
-- Préparation AR ➔ [ModelViewer]((https://modelviewer.dev/))
-- Hébergement ➔ [GitHub]((https://github.com/)) (GitHub Pages)
+- Modélisation ➔ [TinkerCAD] https://www.tinkercad.com/
+- Dépliage UV ➔ [UV Unwrapper] https://uv-unwrapper.vercel.app/
+- Textures (PBR) ➔ [AmbientCG] https://ambientcg.com/
+- Assemblage ➔ [Three JS Editor] https://threejs.org/editor/
+- Préparation AR ➔ [ModelViewer] https://modelviewer.dev/ 
+- Hébergement ➔ [GitHub] https://github.com/  (GitHub Pages)
 
 📝 Déroulé de la séance
 
