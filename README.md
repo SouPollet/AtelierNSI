@@ -27,6 +27,9 @@ Aucun logiciel à installer ! Notre pipeline de création se déroule entièreme
 1️⃣ Modéliser une pièce en 3D avec TinkerCAD
 L'objectif : Prendre en main la 3D en créant une brique de LEGO, avant de passer à vos propres cas d'usage.
 
+![alt text]([https://github.com/SouPollet/AtelierNSI/edit/main/LegoDimensions.png])
+
+
 Création de compte : Inscrivez-vous sur TinkerCAD et découvrez l'interface de Conception 3D.
 
 Les bases :
