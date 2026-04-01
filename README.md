@@ -2,7 +2,7 @@
 
 DEMO : https://soupollet.github.io/AtelierNSI/
 
-Le fichier : VISUELS_ATELIER_NSI.pdf est un appui pour mieux comprendre visuellement chaque étape.
+Le fichier : VISUELS_ATELIER_NSI.pdf (https://github.com/SouPollet/AtelierNSI/blob/main/VISUELS_ATELIER_NSI.pdf) est un appui pour mieux comprendre visuellement chaque étape.
 
 🚀 Atelier Découverte : De la 3D à la Réalité Augmentée (AR) dans le navigateur.
 
