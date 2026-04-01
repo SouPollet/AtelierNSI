@@ -4,7 +4,8 @@ DEMO : https://soupollet.github.io/AtelierNSI/
 
 Le fichier : VISUELS_ATELIER_NSI.pdf est un appui pour mieux comprendre visuellement chaque étape.
 
-🚀 Atelier Découverte : De la 3D à la Réalité Augmentée (AR) dans le navigateur
+🚀 Atelier Découverte : De la 3D à la Réalité Augmentée (AR) dans le navigateur.
+
 En quelques étapes simples, vous allez apprendre à modéliser un objet en 3D, le texturer avec réalisme, et le déployer sur le web pour le visualiser en AR depuis votre smartphone.
 
 👨‍🏫 Animé par : Antoine POLLET
@@ -40,7 +41,7 @@ Les bases :
 2️⃣ Préparer son modèle pour le Texturing (Les UVs)
 L'objectif : Comprendre comment on plaque une image 2D sur un volume 3D (ex: le motif damier sur votre brique LEGO).
 
-Le concept d'UV : Imaginez un emballage de Père Noël en chocolat que l'on déplie pour le mettre à plat. C'est ça, le dépliage UV ! [Une photo peut aider à visualiser]([url](https://i.redd.it/9ef5pds969ac1.jpeg))
+Le concept d'UV : Imaginez un emballage de Père Noël en chocolat que l'on déplie pour le mettre à plat. C'est ça, le dépliage UV ! [Une photo peut aider à visualiser] https://i.redd.it/9ef5pds969ac1.jpeg
 Démonstration : Rapide aperçu d'un dépliage sur Blender pour comprendre la mécanique.
 
 À vous de jouer :
